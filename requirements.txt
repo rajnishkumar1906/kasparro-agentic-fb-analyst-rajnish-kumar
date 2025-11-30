@@ -1,0 +1,19 @@
+pandas==2.2.2
+pyyaml==6.0.1
+requests==2.31.0
+python-dotenv==1.0.1
+pytest==8.1.0
+rich==13.7.0
+
+# Needed for MultiLLM embeddings
+sentence-transformers==2.6.1
+transformers==4.39.3
+torch==2.2.2        # CPU version will install (small)
+numpy==1.26.4
+
+
+fastapi==0.115.0
+uvicorn==0.30.0
+jinja2==3.1.4
+python-multipart==0.0.9
+

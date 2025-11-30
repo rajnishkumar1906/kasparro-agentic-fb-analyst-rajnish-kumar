@@ -1,0 +1,24 @@
+paths:
+  data: "data/synthetic_fb_ads_undergarments.csv"
+  prompts: "prompts/"
+  reports: "reports/"
+  logs: "logs/"
+
+thresholds:
+  low_ctr: 0.015            # Below 1.5% CTR = bad performance
+  low_roas: 1.0             # Below 1.0 ROAS = losing money
+  roas_drop_pct: -0.10      # More than 10% ROAS drop is suspicious
+  spend_spike_pct: 0.30     # >30% spend increase in 1 day
+  impression_fatigue: 0.20  # >20% impressions increase & CTR drops
+
+llm:
+  provider: "openrouter"
+  base_url: "https://openrouter.ai/api/v1"
+  model: "mistral-7b-instruct"   # or any free model
+  max_tokens: 800
+  temperature: 0.4
+
+settings:
+  seed: 42
+  mode: "full"        # can be "sample" or "full"
+  include_retries: true

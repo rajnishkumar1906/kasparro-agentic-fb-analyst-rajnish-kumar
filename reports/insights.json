@@ -1,0 +1,84 @@
+{
+  "validated_hypotheses": [
+    {
+      "reason": "Increased competition during specific days may have driven up costs, lowering ROAS.",
+      "evidence": "ROAS fluctuates daily, with some days showing significantly lower values than others. Spend is relatively consistent, suggesting external factors are influencing ROAS.",
+      "metric": "ROAS",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.7
+    },
+    {
+      "reason": "Changes in ad creative freshness or relevance may be affecting clickthrough rates.",
+      "evidence": "CTR varies daily, indicating that the ad's ability to capture user attention is not constant. The creative summary shows different CTRs for different creative types.",
+      "metric": "CTR",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.6
+    },
+    {
+      "reason": "The retargeting audience is performing better than broad and lookalike audiences.",
+      "evidence": "The audience summary shows that the retargeting audience has a significantly higher ROAS (13.69) compared to broad (7.63) and lookalike (9.08) audiences. Retargeting also has a higher CTR.",
+      "metric": "ROAS, CTR",
+      "validated": true,
+      "numeric_support": 0.01280269239597354,
+      "final_confidence": 1.0
+    },
+    {
+      "reason": "Video creative type may be underperforming compared to other creative types.",
+      "evidence": "The creative summary shows that video creative type has the lowest CTR and ROAS compared to Carousel, Image and UGC.",
+      "metric": "CTR, ROAS",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.7
+    },
+    {
+      "reason": "Campaign spend may be inefficiently allocated across different ad sets.",
+      "evidence": "The 'lowctrads' data suggests that certain ad sets (e.g., Adset1 Retarget) consistently have low CTRs, indicating potential wasted spend in those areas. Spend is relatively consistent across days, suggesting a lack of dynamic budget allocation.",
+      "metric": "Spend, CTR",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.6
+    },
+    {
+      "reason": "Ad fatigue is setting in, causing CTR to decrease over time.",
+      "evidence": "Daily CTR shows a slight downward trend over the period analyzed. This could be due to users becoming less responsive to the same ads over time.",
+      "metric": "CTR",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.5
+    },
+    {
+      "reason": "Carousel and UGC creative types are performing better than Image and Video creative types.",
+      "evidence": "The creative summary shows that Carousel and UGC creative types have higher CTR and ROAS compared to Image and Video creative types.",
+      "metric": "CTR, ROAS",
+      "validated": false,
+      "numeric_support": -0.001298501543417185,
+      "final_confidence": 0.9
+    },
+    {
+      "reason": "Broad audiences are underperforming compared to Lookalike and Retargeting audiences.",
+      "evidence": "The audience summary shows that Broad audiences have lower CTR and ROAS compared to Lookalike and Retargeting audiences.",
+      "metric": "CTR, ROAS",
+      "validated": true,
+      "numeric_support": 0.01280269239597354,
+      "final_confidence": 1.0
+    },
+    {
+      "reason": "The performance of video ads is inconsistent across different countries.",
+      "evidence": "The 'lowctrads' data shows that video ads in certain countries (e.g., UK, IN) have significantly lower CTRs compared to video ads in other countries (e.g., US).",
+      "metric": "CTR",
+      "validated": false,
+      "numeric_support": null,
+      "final_confidence": 0.6
+    },
+    {
+      "reason": "The performance of video ads is inconsistent across different audience types.",
+      "evidence": "The 'lowctrads' data shows that video ads targeting Broad audiences have significantly lower CTRs compared to video ads targeting Lookalike and Retargeting audiences.",
+      "metric": "CTR",
+      "validated": true,
+      "numeric_support": 0.01280269239597354,
+      "final_confidence": 0.8
+    }
+  ]
+}

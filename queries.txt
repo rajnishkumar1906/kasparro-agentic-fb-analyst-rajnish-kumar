@@ -1,0 +1,8 @@
+Here are a few fresh prompts you can try to exercise different parts of the pipeline:
+
+- Analyze why CTR has dropped over the last month and pinpoint creatives causing the decline. 
+- Find the top 3 audiences with negative ROAS trends and suggest how to reallocate spend toward better performers.
+- Identify campaigns with rising CPM but flat conversions and recommend optimization strategies.
+- Compare image vs video creatives for ROAS & CTR and recommend which formats to scale.  
+- Detect seasonality or weekday patterns that impact ROAS and propose scheduling adjustments.
+- Spot ad sets with high add-to-cart volume but poor purchase conversion and recommend fixes.  
